@@ -1,0 +1,4 @@
+date,description,amount,category,type,accountId
+2026-02-10,Groceries - FreshMart,62.45,groceries,EXPENSE,acc-demo-1
+2026-02-11,UPI Payment - Coffee with Sam,4.80,food,EXPENSE,acc-demo-1
+2026-02-12,Salary Credit,1500.00,income,INCOME,acc-demo-1

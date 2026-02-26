@@ -1,0 +1,13 @@
+Error: [ Server ] checkUser: Database error: "\nInvalid `__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$prisma$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"db\"].user.create()` invocation in\n/home/runner/workspace/.next/server/chunks/ssr/[root of the server]__09b1c2._.js:187:156\n\n  184     return loggedInUser;\n  185 }\n  186 const name = `${user.firstName || \"\"} ${user.lastName || \"\"}`.trim();\n→ 187 const newUser = await __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$prisma$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"db\"].user.create(\nUnique constraint failed on the fields: (`clerkUserId`)"
+    at createUnhandledError (https://6ed46379-fa79-4429-a84d-6947abd5da4f-00-2dl11c9t19z0p.pike.replit.dev/_next/static/chunks/node_modules_next_dist_client_9bb038._.js:744:19)
+    at handleClientError (https://6ed46379-fa79-4429-a84d-6947abd5da4f-00-2dl11c9t19z0p.pike.replit.dev/_next/static/chunks/node_modules_next_dist_client_9bb038._.js:905:98)
+    at console.error (https://6ed46379-fa79-4429-a84d-6947abd5da4f-00-2dl11c9t19z0p.pike.replit.dev/_next/static/chunks/node_modules_next_dist_client_9bb038._.js:1036:56)
+    at Proxy.<anonymous> (https://6ed46379-fa79-4429-a84d-6947abd5da4f-00-2dl11c9t19z0p.pike.replit.dev/__replco/static/devtools/injected.js:37:27)
+    at checkUser (rsc://React/Server/file:///home/runner/workspace/.next/server/chunks/ssr/%5Broot%20of%20the%20server%5D__09b1c2._.js?0:197:21)
+    at async getDashboardData (rsc://React/Server/file:///home/runner/workspace/.next/server/chunks/ssr/%5Broot%20of%20the%20server%5D__f73e6b._.js?1:376:18)
+    at async DashboardPage (rsc://React/Server/file:///home/runner/workspace/.next/server/chunks/ssr/%5Broot%20of%20the%20server%5D__f73e6b._.js?2:772:38)
+    at react-stack-bottom-frame (https://6ed46379-fa79-4429-a84d-6947abd5da4f-00-2dl11c9t19z0p.pike.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_107ce8._.js:4011:62)
+    at resolveConsoleEntry (https://6ed46379-fa79-4429-a84d-6947abd5da4f-00-2dl11c9t19z0p.pike.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_107ce8._.js:3746:13)
+    at processFullStringRow (https://6ed46379-fa79-4429-a84d-6947abd5da4f-00-2dl11c9t19z0p.pike.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_107ce8._.js:3838:17)
+    at processFullBinaryRow (https://6ed46379-fa79-4429-a84d-6947abd5da4f-00-2dl11c9t19z0p.pike.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_107ce8._.js:3809:9)
+    at progress (https://6ed46379-fa79-4429-a84d-6947abd5da4f-00-2dl11c9t19z0p.pike.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_107ce8._.js:3929:102)
